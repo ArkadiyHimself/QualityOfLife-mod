@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "package": "net.arkadiyhimself.qualityoflife.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "refmap": "${mod_id}.refmap.json",
+  "mixins": [
+    "MixinComposterBlock",
+    "MixinTiers"
+  ],
+  "client": [
+  ],
+  "minVersion": "0.8"
+}
